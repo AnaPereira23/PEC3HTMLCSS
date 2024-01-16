@@ -1,0 +1,322 @@
+* {
+    --textcolor: rgb(0, 0, 0);
+    --contrastcolor: rgb(189, 55, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Alegreya', serif;
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    width: 63%;
+    text-align: center;
+    padding-top: 12px;
+}
+
+header {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 9vw;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 7vw;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 5vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p, h1, h2, h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ol li {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+iframe {
+    width: 100vw;
+    height: 70vw;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 2vw;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+dd {
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul li {
+    padding-bottom: 15px;
+}
+
+p, main li, dd {
+    font-size: 3vw;
+    padding-bottom: 5px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
+a:hover {
+    color: var(--textcolor);
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited, nav a:active {
+    color: var(--textcolor);
+}
+
+nav a:hover {
+    color: var(--contrastcolor);
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: left;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#imggeorge {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    clip-path: polygon(50% 100%, 59% 94%, 65% 85%, 70% 74%, 70% 10%, 66% 16%, 61% 18%, 57% 16%, 54% 12%, 52% 7%, 50% 0, 47% 7%, 45% 12%, 41% 16%, 37% 18%, 32% 17%, 29% 12%, 29% 74%, 34% 85%, 41% 94%);
+}
+
+#imgwolf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#imgstarks {
+    width: 90%;
+}
+
+#imgwolfsmall {
+    display: block;
+    width: 30%;
+}
+
+#imgwinterfell {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#logotext {
+    font-family: 'Garamond', serif;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    animation: scaling 2s ease-in-out infinite;
+}
+
+@keyframes scaling {
+    0%, 100% {
+      transform: scale(0.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+}
+
+#circle1 {
+    animation-delay: 0s;
+}
+
+#circle2 {
+    animation-delay: 0.2s;
+}
+
+#circle3 {
+    animation-delay: 0.4s;
+}
+
+#circle4 {
+    animation-delay: 0.6s;
+}
+
+@media (max-width: 575px) {
+    img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    main {
+      max-width: 540px;
+    }
+
+    #imgtree {
+        width: 90%;
+    }
+
+    #imgstarks {
+        width: 60%;
+    }
+
+    #imgwolfsmall {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+      max-width: 720px;
+    }
+
+    #imgtree {
+        width: 80%;
+    }
+
+    #imgstarks {
+        width: 50%;
+    }
+
+    #imgwolfsmall {
+        width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    main {
+      max-width: 960px;
+    }
+
+    #imgtree {
+        width: 70%;
+    }
+
+    #imgstarks {
+        width: 40%;
+    }
+
+    #imgwolfsmall {
+        width: 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+      max-width: 1140px;
+    }
+
+    #imgtree {
+        width: 60%;
+    }
+
+    #imgstarks {
+        width: 30%;
+    }
+
+    #imgwolfsmall {
+        width: 10%;
+    }
+}
+
+@media (min-width: 768px) {
+    nav ul li {
+        display: inline-block;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+        
+    h3 {
+        font-size: 1.5vw;
+        padding-top: 20px;
+    }
+        
+    p, main li, dd, dt {
+        font-size: 1.3vw;
+    }
+
+    p, main li {
+        padding-bottom: 15px;
+    }
+        
+    nav {
+        font-size: 1.4vw;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 70vw;
+        border: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

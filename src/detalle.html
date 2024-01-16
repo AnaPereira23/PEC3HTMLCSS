@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Stark</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="app.js"></script>
+</head>
+
+<body>
+<header>
+    <svg id="logo" version="1.1" width="515" height="515" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="50%" height="50%" fill="gold" />
+        <rect x="257" y="0" width="50%" height="50%" fill="skyblue" />
+        <rect x="257" y="257" width="50%" height="50%" fill="gold" />
+        <rect x="0" y="257" width="50%" height="50%" fill="skyblue" />
+        <circle cx="257" cy="235" r="100" fill="black" />
+        <path d="m256,501c-4,0-8-1.2-11.4-3.5-147.3-99.1-232.4-247.2-233.6-406.4-0.1-9.3 6.2-17.5 15.2-19.9l224.6-59.6c3.4-0.9 7-0.9 10.5,0l224.6,59.6c9,2.4 15.2,10.6 15.2,19.9-1.1,159.1-86.3,307.3-233.6,406.4-3.5,2.3-7.5,3.5-11.5,3.5zm-203.7-394.4c6.2,135.4 79.6,261.3 203.7,349.2 124.1-87.9 197.5-213.8 203.7-349.2l-203.7-54.1-203.7,54.1z" stroke="black" />
+        <line x1="256.5" x2="256.5" y1="20" y2="480" stroke="black" stroke-width="25"/>
+        <text id="logotext" x="257" y="265" font-size="80" text-anchor="middle" fill="white">GOT</text>
+    </svg>
+    <h1>Game of Thrones</h1>
+</header>
+
+<main>
+<h2>Casa <span lang="en">Stark</span> de <span lang="en">Winterfell</span></h2>
+
+    <picture id="imgwolf">
+        <source media="(max-width: 799px)" srcset="img/housestark-p.webp" />
+        <source media="(min-width: 800px)" srcset="img/housestark-c.png" />
+        <img src="img/housestark-c.png" loading="lazy" alt="Símbolo de la casa Stark" />
+    </picture>
+
+    <h3>Historia</h3>
+        <p>La Casa <span lang="en">Stark</span>, una de las más antiguas y nobles en <span lang="en">Westeros</span>, tiene una historia que se remonta a la Edad de los Héroes, siendo fundada por el legendario <span lang="en">Brandon</span> el Constructor. 
+        Este líder construyó <span lang="en">Winterfell</span> y el Muro, marcando el comienzo de una influencia que se extiende por generaciones. 
+        Durante ocho mil años, los <span lang="en">Stark</span> gobernaron como Reyes del Invierno, enfrentando desafíos como el Rey de la Noche, derrotado por <span lang="en">Brandon</span> el Rompedor y <span lang="en">Joramun</span>.
+
+        <p>A lo largo de los siglos, la Casa <span lang="en">Stark</span> enfrentó rivales como los Reyes <span lang="en">Barrow y los Reyes Rojos. 
+        Superaron desafíos marítimos y terrestres, incluso luchando contra la Casa <span lang="en"><a href="">Arryn</a></span> por el control de las Tres Hermanas. 
+        La historia de los <span lang="en">Stark</span> está marcada por alianzas, como la con los <span lang="en">Bolton</span>, antiguos enemigos que juraron lealtad, y eventos como la victoria sobre piratas en el río <span lang="en">White Knife</span>.
+    
+        <p>En la Conquista de <span lang="en">Aegon</span>, <span lang="en">Torrhen Stark</span>, conocido como "el Rey que se arrodilló", optó por la sumisión pacífica, convirtiéndose en Guardianes del Norte en nombre de los Señores de los Siete Reinos. 
+        A lo largo de las eras, los Stark mantuvieron una relación compleja con los <span lang="en"><a href="">Targaryen</a></span>, participando selectivamente en eventos como la Rebelión de Desertores de la Guardia de la Noche.
+    
+        <p>La Casa <span lang="en">Stark</span> también tuvo un papel destacado cuando <span lang="en">Lord Cregan Stark</span> contribuyó a la causa de <span lang="en">Rhaenyra Targaryen</span>. 
+        Aunque brevemente asumió como Mano del Rey, la "Hora del Lobo," enfrentó amenazas en el norte como el invierno, la hambruna y la peste. 
+        La sucesión de los <span lang="en">Stark</span> fue tumultuosa, con desafíos internos y amenazas externas.
+    
+        <p>El legado de la Casa <span lang="en">Stark</span> continúa con figuras como <span lang="en">Eddard Stark</span>, protagonista de la Rebelión de <span lang="en">Robert</span>, y su hijo <span lang="en">Robb Stark</span>. 
+        La promesa hecha por <span lang="en">Eddard</span> en la torre de alegría sigue siendo un misterio, agregando capas de intriga a la rica historia de esta familia. 
+        Con su papel como Guardianes del Norte, los <span lang="en">Stark</span> han resistido las pruebas del tiempo y se han ganado un lugar destacado en la historia de <span lang="en">Westeros</span>.
+        
+        <picture id="imgwinterfell">
+            <source media="(max-width: 799px)" srcset="img/winterfell-p.jpg" />
+            <source media="(min-width: 800px)" srcset="img/winterfell-c.jpg" />
+            <img src="img/winterfell-c.jpg" loading="lazy" alt="Winterfell" />
+        </picture>
+
+    <h3>Eventos recentes</h3>
+        <p>En el resurgimiento de la misteriosa muerte de <span lang="en">Jon Arryn</span>, el rey <span lang="en">Robert Baratheon</span> ofrece a <span lang="en">Lord Eddard Stark</span> el puesto de Mano del Rey. 
+        La sospecha de la participación de los <a href="">Lannister</a> en la muerte de <span lang="en">Arryn</span> desencadena una serie de eventos que lleva a <span lang="en">Eddard</span> a aceptar a regañadientes el cargo. 
+        Su hija <span lang="en">Sansa</span> es comprometida con el príncipe <span lang="en">Joffrey Baratheon</span>, consolidando la alianza <span lang="en">Stark-<a href="">Lannister</a></span>. 
+        La historia da un giro oscuro cuando <span lang="en">Bran Stark</span> es testigo de un romance ilícito entre <span lang="en">Cersei Lannister</span>, lo que provoca un intento de asesinato y una cruda revelación para <span lang="en">Eddard</span> sobre los secretos de los <span lang="en"><a href="">Lannister</a></span>.</p>
+
+        <p>Mientras <span lang="en">Eddard</span> se dirige a <span lang="en">King's Landing</span>, su hijo bastardo <span lang="en">Jon Snow</span> se embarca hacia el Muro con su tío <span lang="en">Benjen</span>. 
+        <span lang="en">Catelyn Stark</span>, angustiada por el destino de <span lang="en">Bran</span>, descuida sus responsabilidades en <span lang="en">Winterfell</span>. 
+        Mientras tanto, en la capital se revela una red de engaños políticos e inestabilidad financiera, con <span lang="en">Eddard</span> descubriendo deudas alarmantes y un plan para asesinar a <span lang="en">Daenerys Targaryen</span>. 
+        Al negarse a respaldar el asesinato, <span lang="en">Eddard</span> renuncia como Mano, enfrentándose a ataques subsiguientes y sobreviviendo a un enfrentamiento con <span lang="en">Jaime Lannister</span>.</p>
+    
+        <p>La narrativa se expande para incluir las experiencias de <span lang="en">Jon Snow</span> en el Muro, la desafianza de <span lang="en">Arya</span> en la capital y la movilización de <span lang="en">Robb Stark</span> contra los <span lang="en"><a href="">Lannister</a></span>. 
+        La investigación de <span lang="en">Eddard</span> lo lleva a una impactante verdad sobre los hijos de <span lang="en">Cersei</span>, resultando en un enfrentamiento fatal. 
+        <span lang="en">Robb</span> se proclama Rey en el Norte después de la injusta ejecución de <span lang="en">Eddard</span> en <span lang="en">King's Landing</span>. 
+        La familia <span lang="en">Stark</span> se dispersa: <span lang="en">Arya</span> escapa, <span lang="en">Sansa</span> se convierte en una peón y <span lang="en">Robb</span> lidera una rebelión.</p>
+    
+        <p>La saga se desarrolla con batallas, traiciones y lealtades cambiantes. 
+        Los éxitos militares de <span lang="en">Robb Stark</span> se ven empañados por errores políticos, llevando finalmente a la infame Boda Roja, una traición brutal que devastó a la Casa <span lang="en">Stark</span>. 
+        Los miembros sobrevivientes de los <span lang="en">Stark</span> se dispersan, con <span lang="en">Jon Snow</span> enfrentando complejas relaciones más allá del Muro y <span lang="en">Arya</span> embarcándose en un viaje de supervivencia y venganza.</p>
+    
+        <p>El caos persiste con <span lang="en">Sansa</span> sufriendo tormento en <span lang="en">King's Landing</span>, <span lang="en">Bran</span> desarrollando habilidades místicas más allá del Muro y la ubicación de <span lang="en">Rickon</span> permaneciendo incierta.</p>
+    
+    <h3>Personajes</h3>
+        <dl>
+            <dt><span lang="en">Eddard Stark</span></dt>
+            <dd>Conocido como "<span lang="en">Ned</span>", hijo intermedio de <span lang="en">Lord Rickard</span> y <span lang="en">Lady Lyarra Stark</span>. Señor de <span lang="en">Winterfell</span> y Guardián del Norte.</dd>
+
+            <dt><span lang="en">Catelyn Tully</span></dt>
+            <dd>Esposa de <span lang="en">Lord Eddard</span>.</dd>
+                
+            <dt><span lang="en">Robb Stark</span></dt>
+            <dd>Hijo primogénito y heredero legítimo de <span lang="en">Lord Eddard</span>, también conocido como "el Joven Lobo".</dd>
+                
+            <dt><span lang="en">Sansa Stark</span></dt>
+            <dd>Hija mayor de <span lang="en">Eddard</span> y <span lang="en">Catelyn</span>.</dd>
+                
+            <dt><span lang="en">Arya Stark</span></dt>
+            <dd>Hija menor de <span lang="en">Eddard</span> y <span lang="en">Catelyn</span>.</dd>
+                
+            <dt><span lang="en">Brandon Stark</span></dt>
+            <dd>Conocido como "<span lang="en">Bran</span>", segundo hijo de <span lang="en">Eddard</span> y <span lang="en">Catelyn</span>.</dd>
+                
+            <dt><span lang="en">Rickon Stark</span></dt>
+            <dd>Hijo más joven de <span lang="en">Eddard</span> y <span lang="en">Catelyn</span>.</dd>
+                
+            <dt><span lang="en">Jon Snow</span></dt>
+            <dd>Hijo bastardo de <span lang="en">Eddard</span> de madre no especificada.</dd>
+                
+            <dt><span lang="en">Benjen Stark</span></dt>
+            <dd>Hijo menor de <span lang="en">Lord Rickard</span> y <span lang="en">Lady Lyarra</span>, el último hermano sobreviviente de <span lang="en">Ned</span>.</dd>
+        </dl>
+
+        <img 
+        id="imgstarks"
+        srcset="img/starks-1200w.webp 300w, img/starks-1200w.webp 1200w"
+        sizes="(max-width: 600px) 300px, 1200px"
+        src="img/starks-1200w.webp"
+        loading="lazy"
+        alt="Miembros de la família Stark"/>
+
+    <h3>Arból genealógico</h3>
+        <img 
+        id="imgtree"
+        srcset="img/stark-family-tree-750w.webp 290w, img/stark-family-tree-750w.webp 750w"
+        sizes="(max-width: 600px) 290px, 750px"
+        src="img/stark-family-tree-750w.webp"
+        loading="lazy"
+        alt="Arból genealógico de la família Stark"/>
+</main>
+
+<footer>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Portada</a></li>
+            <li><a href="categoria.html">Las grandes casas de <span lang="en">Game of Thrones</span></a></li>
+            <li><a href="presentacion.html">Presentacion</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
